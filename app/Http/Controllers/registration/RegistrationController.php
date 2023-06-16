@@ -80,7 +80,7 @@ class RegistrationController extends Controller
         public function register_new_user(Request $request){
             $user_data=[
                 'role'          =>$request-> role, 
-                'username'         =>$request-> user_name, 
+                'username'         =>$request-> username, 
                 'email'            =>$request-> email, 
                 'password'         =>$request-> password,
                 'created_by'       =>1,
